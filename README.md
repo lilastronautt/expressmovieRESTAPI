@@ -25,7 +25,7 @@ express movie REST API
          - route for delete the rating (DELETE /movie/movieId/rating)
       
    3) search.js
-       1) movie search using movie name
+      1) movie search using movie name
          - search movie using movie name (GET /search/movie)
          - http://localhost:3000/search/movie?api_key=123456789&query=Spider
 
