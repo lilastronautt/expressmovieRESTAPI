@@ -14,21 +14,21 @@ express movie REST API
        - route for getting top rated movies (GET /movie/top_rated)
        - https://localhost:3000/movie/top_rated?api_key=123456789&page=1
         
-    ii) movie search using Movie ID
+   ii) movie search using Movie ID
        - route for getting movie from movieId (GET /movie/movieId)
        - http://localhost:3000/movie/137113?api_key=123456789
       
-    iii) POST method (test using postman)
+   iii) POST method (test using postman)
       - route for posting movie rating using movieId (POST /movie/movieId/rating)
   
-    iv) DELETE method (test using postman)
+   iv) DELETE method (test using postman)
       - route for delete the rating (DELETE /movie/movieId/rating)
-
-    3) search.js
-     i) movie search using movie name
+      
+   3) search.js
+    i) movie search using movie name
       - search movie using movie name (GET /search/movie)
       - http://localhost:3000/search/movie?api_key=123456789&query=Spider
 
-     ii) actor search using name
+   ii) actor search using name
       - search actor using movie name (GET /search/movie)
       - http://localhost:3000/search/person?api_key=123456789&query=Keaton
