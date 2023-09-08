@@ -6,29 +6,29 @@
 
 express movie REST API
    1) index.js
-      i) - route for getting the most popular movies (GET /most_popular)
+      1) - route for getting the most popular movies (GET /most_popular)
          - https://localhost:3000/most_popular?api_key=123456789 
 
    2) movie.js
-      i) top rated movies
+      1) top rated movies
          - route for getting top rated movies (GET /movie/top_rated)
          - https://localhost:3000/movie/top_rated?api_key=123456789&page=1
         
-      ii) movie search using Movie ID
+      2) movie search using Movie ID
          - route for getting movie from movieId (GET /movie/movieId)
          - http://localhost:3000/movie/137113?api_key=123456789
       
-      iii) POST method (test using postman)
+      3) POST method (test using postman)
          - route for posting movie rating using movieId (POST /movie/movieId/rating)
   
-      iv) DELETE method (test using postman)
+      4) DELETE method (test using postman)
          - route for delete the rating (DELETE /movie/movieId/rating)
       
    3) search.js
-       i) movie search using movie name
+       1) movie search using movie name
          - search movie using movie name (GET /search/movie)
          - http://localhost:3000/search/movie?api_key=123456789&query=Spider
 
-   ii) actor search using name
+      2) actor search using name
          - search actor using movie name (GET /search/movie)
          - http://localhost:3000/search/person?api_key=123456789&query=Keaton
